@@ -7,9 +7,9 @@ export const metadata = {
 
 const DashboardLayout = ({ children }) => {
   return (
-    <div>
+    <div className="flex">
       <Sidebar />
-      {children}
+      <div className='w-full'>{children}</div>
     </div>
   );
 };

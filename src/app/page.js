@@ -1,8 +1,8 @@
-"use client"
+// "use client"
 import React from 'react';
 
 const Home = () => {
-  console.log("From Server");
+  // console.log("From Server");
   return (
     <div>
       <h1 className="text-3xl">This is Home Page</h1>
